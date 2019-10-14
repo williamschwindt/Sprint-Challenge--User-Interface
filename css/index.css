@@ -214,12 +214,47 @@ footer nav a {
 
 .about-header h2,
 .about-header p {
-    margin-left: 2%;
+    margin-left: 3%;
 }
+
+.about-header h2 { font-size: 130%; }
 
 .about-header {
     margin-top: 4%;
     border-bottom: 1px dashed black;
     padding-bottom: 4%;
     margin-bottom: 4%;
+}
+
+.info-tabs {
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-tab img {
+    width: 100%;
+}
+
+.info-tab {
+    width: 46%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 4%;
+}
+
+.info-tab h2 {
+    margin-top: 2%;
+    font-size: 120%;
+}
+
+.info-tab p { margin-bottom: 5%; }
+
+.info-tab a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 2% 8%;
+    border-radius: 10px;
 }

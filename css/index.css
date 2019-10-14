@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+header img,
+.about-header-img {
+    width: 100%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,6 +106,10 @@ header img {
     padding-bottom: 20px;  
 }
 
+.text-container h2 {
+    font-size: 120%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -117,17 +126,6 @@ header img {
     justify-content: space-evenly;
 }
 
-/*
-``
-`cadetblue`
-`coral`
-`crimson`
-`forestgreen`
-`darkorchid`
-`hotpink`
-`indigo`
-`dodgerblue`
-*/
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;

@@ -211,3 +211,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-header h2,
+.about-header p {
+    margin-left: 2%;
+}
+
+.about-header {
+    margin-top: 4%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+}
